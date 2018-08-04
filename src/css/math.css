@@ -1,0 +1,11 @@
+.math{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.math>span{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

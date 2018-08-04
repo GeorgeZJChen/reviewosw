@@ -1,0 +1,52 @@
+.content{
+  font-family: Lora,Palatino,Times,Times New Roman,serif;
+}
+h1, h2, h3, h4 ,p{
+  text-align: left;
+}
+h1{
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.76;
+}
+.sec-title{
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.sec-sub-title{
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.sec-s{
+  margin: 0.1rem 0 1rem 0;
+}
+.sec-s-s{
+  margin: 0.2rem 0 0 0;
+  width: 25%;
+}
+.fig-ct{
+  text-align: center;
+}
+.fig-ct>.figure-frame{
+  margin: 8px;
+  vertical-align: top;
+}
+.math-block{
+  padding: 10px 15px;
+  overflow: auto;
+}
+.math-block>.math:first-child{
+  margin-top: 0;
+}
+.math-block>.math:last-child{
+  margin-bottom: 0;
+}
+.math-block>.math{
+  margin: 5px 0;
+}
+.math-inline{
+  display: inline-block;
+}

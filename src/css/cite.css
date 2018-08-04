@@ -1,0 +1,21 @@
+.references{
+  font-size: 1rem;
+  word-break: break-word;
+}
+.cite{
+  vertical-align: super;
+  font-size: 0.6em;
+  cursor: pointer;
+  color: #069;
+}
+.ref-n{
+  padding: 0.3rem 1.5rem 0.3rem 0.5rem;
+  vertical-align: top;
+  text-align: left;
+  word-break: normal;
+}
+.ref-text{
+  text-align: left;
+  padding: 0.3rem 0;
+  vertical-align: top;
+}
