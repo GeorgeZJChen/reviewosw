@@ -25,25 +25,25 @@ class Header extends Component {
   }
   loadDemos(){
     const url = 'https://georgechenzj.github.io/static/demos.json'
-      axios({
-        method: 'get',
-        url: url,
-        responseType: 'json'
-      }).then((res)=>{
-        try {
-          this.demos = res.data.demos
-          this.setState((prevState)=>{
-            return {
-              renderFlag: ~prevState.renderFlag
-            }
-          })
-        } catch (e) {
-          console.warn(e);
-          console.error('Data format error');
-        }
-      }).catch((err)=>{
-        console.warn(err);
-      })
+    axios({
+      method: 'get',
+      url: url,
+      responseType: 'json'
+    }).then((res)=>{
+      try {
+        this.demos = res.data.demos
+        this.setState((prevState)=>{
+          return {
+            renderFlag: ~prevState.renderFlag
+          }
+        })
+      } catch (e) {
+        console.warn(e);
+        console.error('Data format error');
+      }
+    }).catch((err)=>{
+      console.warn(err);
+    })
   }
   render() {
     return (

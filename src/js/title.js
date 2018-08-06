@@ -20,7 +20,7 @@ class Title extends Component {
     })
   }
   nameOnClick(){
-    // TODO:
+    window.open("https://georgechenzj.github.io/me/")
   }
   SectionTitle(props){
     return <li onClick={()=>this.liOnClick(props.name)} className={props.type===1?'sec-tt':'sec-st'}
@@ -70,7 +70,7 @@ class Title extends Component {
         <div className='title'>
           <h1 className='title-text'>{this.props.title}</h1>
           <div className='author'>
-            <span className='link author-name' title="See more about the author" onClick={()=>this.nameOnClick}>Zhuojun Chen</span>,&nbsp;
+            <span className='link author-name' title="See more about the author" onClick={()=>this.nameOnClick()}>Zhuojun Chen</span>,&nbsp;
             <span className='link author-org' title="Visit official site of University of Dundee" onClick={()=>window.open("http://dundee.ac.uk/")}>University of Dundee</span>
           </div>
         </div>
